@@ -965,7 +965,7 @@ def main():
 
 while True:
     init()
-    # key()
+    key()
     try:
         main()
     except KeyboardInterrupt:
