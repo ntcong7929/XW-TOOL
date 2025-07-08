@@ -446,7 +446,6 @@ def key():
         else:
             if da_qua_gio_moi():
                 print("\033[1;33mQuá giờ sử dụng tool !!!")
-                return
 
             url, key, expiration_date = generate_key_and_url(ip_address)
 
@@ -927,8 +926,8 @@ def kiem_tra_kq_nang_cao(headers, ki, bot_chon, top10_data, top100_data):
     return None, None
 
 def main():
-    key()
     display_animated_banner()
+    key()
     display_loading_animation()
     config = load_config()
     headers = {
