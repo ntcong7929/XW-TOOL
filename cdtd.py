@@ -255,7 +255,7 @@ def key():
         else:
             if da_qua_gio_moi():
                 print("\033[1;33mQuá giờ sử dụng tool !!!")
-                return
+                time.sleep(1)
 
             url, key, expiration_date = generate_key_and_url(ip_address)
 
