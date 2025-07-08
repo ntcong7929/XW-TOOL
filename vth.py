@@ -927,7 +927,7 @@ def kiem_tra_kq_nang_cao(headers, ki, bot_chon, top10_data, top100_data):
     return None, None
 
 def main():
-    key()
+    # key()
     display_animated_banner()
     display_loading_animation()
     config = load_config()
